@@ -9,9 +9,10 @@
 
 <h3>what to do ?</h3>
 <hr>
-<p>do <mark>encraption</mark> and <mark>decraption</mark></p>
+<p>do encraption and decraption</p>
 
 <h3>Encryption methods :</h3>
+<hr>
 <p>ASCll system</p>
 <p>ekeyless encraption</p>
 
