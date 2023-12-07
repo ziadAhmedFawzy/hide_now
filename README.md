@@ -8,7 +8,8 @@
   knowledge to protect your digital assets and communication. Your online security matters — let's make encryption your digital shield!</p>
 
 <h3>what to do ?</h3>
-<p>do encraption and decraption</p>
+<hr>
+<p>do <mark>encraption</mark> and <mark>decraption</mark></p>
 
 <h3>Encryption methods :</h3>
 <p>ASCll system</p>
