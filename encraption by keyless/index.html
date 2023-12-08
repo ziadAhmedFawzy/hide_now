@@ -7,32 +7,34 @@
     <meta name="keywords" content="encraption , decraption">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <meta http-equiv="Content-Type" content="text/html;charset=UTF-8">
-    <title>hide now</title>
+    <title>hide now &bull; encraption ny keyless</title>
     <link rel="stylesheet" href="style.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@200;300;400;500;600;700;800;900;1000&display=swap" rel="stylesheet">
-    <link rel="icon" href="data/icon/hide.png">
+    <link rel="icon" href="../data/icon/hide.png">
     <script src="https://kit.fontawesome.com/edb08315aa.js" crossorigin="anonymous"></script>
 </head>
 <body>
     <header>
         <h1>hide now <i class="fa-regular fa-eye-slash"></i></h1>
         <div class="download-dark">
-            <a title="download file enc by python" href="data/files_encription_by_python/files_encription_by_python.rar" download><i class="fa-solid fa-download"></i></a>
+            <a title="download file enc by python" href="../data/files_encription_by_python/files_encription_by_python.rar" download><i class="fa-solid fa-download"></i></a>
             <button id="dark"><i class="fa-regular fa-moon"></i></button>
         </div>
     </header>
-    <section class="welcome">
-        <h2><i class="fa-regular fa-eye-slash"></i></h2>
-        <h1>hide now</h1>
-        <h2>hello, my name is ziad ahmed fawzy</h2>
-        <h3>How do you want to encode ?</h3>
-        <div class="enc_or_dec">
-            <a href="encraption by ascll/index.html">ASCll's system</a>
-            <a href="encraption by keyless/index.html">keyless's encraption</a>
+    <div class="say-welcome">
+        <h2><span class="active">ziad fawzy</span> say hello in section of encraption by keyless</h2>
+        <p><a href="../index.html">Home</a><i class="fa-solid fa-arrow-right"></i><a href="#">keyless encraption</a></p>
+    </div>
+    <form>
+        <input type="text" id="word" placeholder="enter your text here" required>
+        <div class="process">
+            <div id="enc">encraption</div>
         </div>
-    </section>
+    </form>
+    <div id="result"></div>
+    <script src="enc.js"></script>
     <script src="script.js"></script>
 </body>
 </html>
