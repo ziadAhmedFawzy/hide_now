@@ -18,6 +18,6 @@
 
 <h4>website page</h4>
 <hr>
-<a href"https://ziadahmedfawzy.github.io/hide_now/" target="_blank">link of website</a>
+[website](https://ziadahmedfawzy.github.io/hide_now/)
 
 <h5>develop by <i>ziad fawzy</i></h5>
