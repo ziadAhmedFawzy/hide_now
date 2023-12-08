@@ -19,6 +19,7 @@ header {
     padding: 10px;
     background-color: #00bcd4;
     color: #fff;
+    cursor: default;
 }
 
 header .download-dark button,a {
