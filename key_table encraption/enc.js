@@ -12,18 +12,13 @@ btn.addEventListener("click" , function() {
         var substring = word.value.slice(x, x + +key.value);
         x = x + +key.value
         let box = document.createElement("div")
-        let table = document.createElement("table")
-        let tbody = document.createElement("tbody")
-        let tr = document.createElement("tr")
         let textElement = document.createTextNode(substring)
-        box.appendChild(table)
-        table.appendChild(tbody)
-        table.setAttribute("border" , 1)
-        tbody.appendChild(tr)
-        tr.appendChild(textElement)
+        box.appendChild(textElement)
         result.appendChild(box)
-        table.classList.add("table")
+        box.classList.add("table")
     }
+    let line = document.createElement("hr")
+    result.appendChild(line)
     count = 0
     x = 0
 })

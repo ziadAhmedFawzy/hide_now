@@ -111,7 +111,7 @@ form .process #dec:hover {
 }
 
 .table {
-    width: 25%;
     margin: auto;
     text-align: center;
+    letter-spacing: 10px;
 }
