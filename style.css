@@ -77,3 +77,9 @@ header .download-dark button,a {
     background-color: #222;
     color: #eee;
 }
+
+@media screen and (max-width:330px) {
+    .welcome .enc_or_dec a {
+        font-size: 15px;
+    }
+}
