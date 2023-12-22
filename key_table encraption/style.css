@@ -80,7 +80,7 @@ form input:focus {
 }
 
 form .process {
-    width: 30%;
+    width: 95%;
     display: flex;
     justify-content: space-around;
 }
@@ -110,8 +110,34 @@ form .process #dec:hover {
     border-color: transparent;
 }
 
+form .process #clear {
+    background-color: #0e454d;
+    border: #0e454d 1px solid;
+}
+
+form .process #clear:hover {
+    background-color: transparent;
+    color: #0e8b9e;
+}
+
 .table {
     margin: auto;
     text-align: center;
     letter-spacing: 10px;
+}
+
+@media screen and (max-width: 320px) {
+    form .process {
+        flex-flow: column;
+        align-items: center;
+    }
+
+    form input {
+        width: 80%;
+    }
+
+    form .process div {
+        width: 70%;
+        text-align: center;
+    }
 }

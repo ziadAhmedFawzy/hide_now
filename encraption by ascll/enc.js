@@ -3,6 +3,7 @@ let key = document.getElementById("key")
 let btnInc = document.getElementById("enc")
 let result = document.getElementById("result")
 let btnDec = document.getElementById("dec")
+let btnClear = document.getElementById("clear")
 let sum = ""
 
 btnInc.addEventListener("click" , function() {
@@ -47,14 +48,6 @@ btnDec.addEventListener("click" , function() {
     sum = ""
 })
 
-
-
-
-
-
-
-
-
-// let x = "a"
-// let result = x.charCodeAt(0)
-// console.log(result)
+btnClear.addEventListener("click" , function() {
+    result.innerHTML = ""
+})

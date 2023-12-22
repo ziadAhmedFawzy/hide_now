@@ -2,6 +2,7 @@ let btn = document.getElementById("enc")
 let word = document.getElementById("word")
 let key = document.getElementById("key")
 let result = document.getElementById("result")
+let clear = document.getElementById("clear")
 
 count = 0
 x = 0
@@ -21,4 +22,8 @@ btn.addEventListener("click" , function() {
     result.appendChild(line)
     count = 0
     x = 0
+})
+
+clear.addEventListener("click" , function() {
+    result.innerHTML = ""
 })

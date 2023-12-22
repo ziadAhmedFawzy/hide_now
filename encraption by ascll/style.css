@@ -80,7 +80,7 @@ form input:focus {
 }
 
 form .process {
-    width: 30%;
+    width: 70%;
     display: flex;
     justify-content: space-around;
 }
@@ -110,6 +110,16 @@ form .process #dec:hover {
     border-color: transparent;
 }
 
+form .process #clear {
+    background-color: #0e454d;
+    border: #0e454d 1px solid;
+}
+
+form .process #clear:hover {
+    background-color: transparent;
+    color: #0e8b9e;
+}
+
 .list {
     padding: 10px;
     background-color: #0196aa;
@@ -130,4 +140,44 @@ form .process #dec:hover {
 
 .list span::selection {
     background-color: transparent;
+}
+
+@media screen and (max-width: 550px) and (min-width: 422px) {
+    form .process div {
+        font-size: 12px;
+        padding: 10px;
+    }
+}
+
+@media screen and (max-width: 422px) and (min-width: 379px) {
+    form .process div {
+        font-size: 12px;
+        padding: 10px;
+        margin: 5px;
+    }
+}
+
+@media screen and (max-width: 379px) and (min-width: 336px) {
+    form .process div {
+        font-size: 12px;
+        padding: 5px;
+        margin: 5px;
+    }
+}
+
+@media screen and (max-width: 336px) {
+    form .process {
+        flex-flow: column;
+        align-items: center;
+    }
+    
+    form .process div {
+        font-size: 12px;
+        padding: 10px;
+        margin: 5px;
+        width: 90%;
+    }
+    form input {
+        width: 80%;
+    }
 }

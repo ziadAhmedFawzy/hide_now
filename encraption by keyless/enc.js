@@ -1,6 +1,7 @@
 let word = document.getElementById("word")
 let btnInc = document.getElementById("enc")
 let result = document.getElementById("result")
+let clear = document.getElementById("clear")
 
 let topLine = ""
 let bottomLine = ""
@@ -32,4 +33,8 @@ btnInc.addEventListener("click" , function() {
     count2 = 1
     topLine = ""
     bottomLine = ""
+})
+
+clear.addEventListener("click" , function() {
+    result.innerHTML = ""
 })
