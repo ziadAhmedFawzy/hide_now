@@ -25,6 +25,11 @@ header .download-dark button,a {
     cursor: pointer;
 }
 
+.dark {
+    background-color: #222;
+    color: #fff;
+}
+
 .say-welcome {
     text-align: center;
     margin-top: 100px;
