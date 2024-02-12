@@ -23,9 +23,11 @@ function keysList(txt,repeat) {
 
 enc.addEventListener("click", function() {
     let num = 0
+    let result = "";
     for(let i = 0; i < word.value.length; i++)
     {
         num = +keysList(word.value, keys.value)[i] + word.value[i].charCodeAt(0)
-        console.log(String.fromCharCode(num))
+        result = result + String.fromCharCode(num)
     }
+    
 })
