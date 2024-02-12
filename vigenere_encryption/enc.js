@@ -34,6 +34,8 @@ enc.addEventListener("click", function() {
     // add element
     let pargraph = document.createElement("p")
     let pargraphTxt = document.createTextNode(result)
+    let encTxt = document.createTextNode("enc : ")
+    pargraph.appendChild(encTxt)
     pargraph.appendChild(pargraphTxt)
     resultPlace.appendChild(pargraph)
 })
@@ -50,6 +52,8 @@ dec.addEventListener("click", function() {
     // add element
     let pargraph = document.createElement("p")
     let pargraphTxt = document.createTextNode(result)
+    let decTxt = document.createTextNode("dec : ")
+    pargraph.appendChild(decTxt)
     pargraph.appendChild(pargraphTxt)
     resultPlace.appendChild(pargraph)
 })
