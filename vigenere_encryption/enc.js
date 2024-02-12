@@ -28,7 +28,7 @@ enc.addEventListener("click", function() {
     let result = "";
     for(let i = 0; i < word.value.length; i++)
     {
-        num = +keysList(word.value, keys.value)[i] + word.value[i].charCodeAt(0)
+        num = +keysList(word.value, keys.value)[i] + word.value[i].toUpperCase().charCodeAt(0)
         result = result + String.fromCharCode(num)
     }
     // add element
@@ -46,7 +46,7 @@ dec.addEventListener("click", function() {
     let result = "";
     for(let i = 0; i < word.value.length; i++)
     {
-        num =word.value[i].charCodeAt(0) - +keysList(word.value, keys.value)[i] 
+        num = word.value[i].toUpperCase().charCodeAt(0) - +keysList(word.value, keys.value)[i] 
         result = result + String.fromCharCode(num)
     }
     // add element

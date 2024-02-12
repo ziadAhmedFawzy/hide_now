@@ -119,6 +119,10 @@ form .process #clear:hover {
     text-align: center;
 }
 
+#word {
+    text-transform: uppercase;
+}
+
 .result p {
     width: 80%;
     padding: 10px;
