@@ -123,6 +123,10 @@ form .process #clear:hover {
     text-transform: uppercase;
 }
 
+#word::placeholder {
+    text-transform: none;
+}
+
 .result p {
     width: 80%;
     padding: 10px;
