@@ -3,6 +3,7 @@ let keys = document.getElementById("keys");
 let enc = document.getElementById("enc");
 let dec = document.getElementById("dec");
 let clear = document.getElementById("clear");
+let resultPlace = document.getElementById("resultPlace")
 
 // this is function to repeat key with length txt
 function keysList(txt,repeat) {
@@ -29,5 +30,9 @@ enc.addEventListener("click", function() {
         num = +keysList(word.value, keys.value)[i] + word.value[i].charCodeAt(0)
         result = result + String.fromCharCode(num)
     }
-    
+    // add element
+    let pargraph = document.createElement("p")
+    let pargraphTxt = document.createTextNode(result)
+    pargraph.appendChild(pargraphTxt)
+    resultPlace.appendChild(pargraph)
 })
