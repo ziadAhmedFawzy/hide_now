@@ -22,6 +22,7 @@ function keysList(txt,repeat) {
     return sum.slice(1, txt.length + 1)
 }
 
+// encrypt
 enc.addEventListener("click", function() {
     let num = 0
     let result = "";
@@ -35,4 +36,25 @@ enc.addEventListener("click", function() {
     let pargraphTxt = document.createTextNode(result)
     pargraph.appendChild(pargraphTxt)
     resultPlace.appendChild(pargraph)
+})
+
+// decrypt
+dec.addEventListener("click", function() {
+    let num = 0
+    let result = "";
+    for(let i = 0; i < word.value.length; i++)
+    {
+        num =word.value[i].charCodeAt(0) - +keysList(word.value, keys.value)[i] 
+        result = result + String.fromCharCode(num)
+    }
+    // add element
+    let pargraph = document.createElement("p")
+    let pargraphTxt = document.createTextNode(result)
+    pargraph.appendChild(pargraphTxt)
+    resultPlace.appendChild(pargraph)
+})
+
+// clear
+clear.addEventListener("click" , function() {
+    resultPlace.innerHTML = ""
 })
