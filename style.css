@@ -78,8 +78,11 @@ header .download-dark button,a {
     color: #eee;
 }
 
-@media screen and (max-width:330px) {
-    .welcome .enc_or_dec a {
-        font-size: 15px;
+@media screen and (max-width:415px) {
+    .welcome {
+        display: block;
+    }
+    .welcome .enc_or_dec {
+        width: fit-content;
     }
 }
