@@ -128,3 +128,43 @@ form .process #clear:hover {
     border-radius: 10px;
     font-weight: bold;
 }
+
+@media screen and (max-width: 550px) and (min-width: 422px) {
+    form .process div {
+        font-size: 12px;
+        padding: 10px;
+    }
+}
+
+@media screen and (max-width: 422px) and (min-width: 379px) {
+    form .process div {
+        font-size: 12px;
+        padding: 10px;
+        margin: 5px;
+    }
+}
+
+@media screen and (max-width: 379px) and (min-width: 336px) {
+    form .process div {
+        font-size: 12px;
+        padding: 5px;
+        margin: 5px;
+    }
+}
+
+@media screen and (max-width: 336px) {
+    form .process {
+        flex-flow: column;
+        align-items: center;
+    }
+    
+    form .process div {
+        font-size: 12px;
+        padding: 10px;
+        margin: 5px;
+        width: 90%;
+    }
+    form input {
+        width: 80%;
+    }
+}
