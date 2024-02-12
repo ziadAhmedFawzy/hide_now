@@ -114,3 +114,17 @@ form .process #clear:hover {
     background-color: transparent;
     color: #0e8b9e;
 }
+
+.result {
+    text-align: center;
+}
+
+.result p {
+    width: 80%;
+    padding: 10px;
+    background-color: #00bcd4;
+    color: #fff;
+    margin: 10px auto;
+    border-radius: 10px;
+    font-weight: bold;
+}
